@@ -1,0 +1,42 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.mediensteuerung" path="/org/gnome/shell/extensions/mediensteuerung/">
+    <key name="animation-style" type="s">
+      <choices>
+        <choice value="scope"/>
+        <choice value="rider"/>
+        <choice value="star"/>
+        <choice value="jelly"/>
+        <choice value="moth"/>
+        <choice value="train"/>
+        <choice value="koi"/>
+        <choice value="portal"/>
+        <choice value="mushroom"/>
+        <choice value="skull"/>
+        <choice value="astronaut"/>
+        <choice value="dragon"/>
+        <choice value="pixel-rain"/>
+        <choice value="moire"/>
+        <choice value="eclipse"/>
+        <choice value="segment-meter"/>
+        <choice value="square-wave"/>
+        <choice value="satellite-orbit"/>
+        <choice value="rocket-launch"/>
+        <choice value="asteroid-pass"/>
+        <choice value="reef-crab"/>
+        <choice value="cat-eyes"/>
+        <choice value="frog-jump"/>
+        <choice value="origami-fold"/>
+        <choice value="sleeping-cat"/>
+      </choices>
+      <default>'scope'</default>
+    </key>
+    <key name="primary-color" type="s"><default>'#ff704f'</default></key>
+    <key name="secondary-color" type="s"><default>'#71cfd4'</default></key>
+    <key name="shortcuts" type="b"><default>true</default></key>
+    <key name="toggle-playback" type="as"><default>['&lt;Control&gt;space']</default></key>
+    <key name="seek-back" type="as"><default>['&lt;Control&gt;a']</default></key>
+    <key name="seek-forward" type="as"><default>['&lt;Control&gt;d']</default></key>
+    <key name="open-player" type="as"><default>['&lt;Control&gt;w']</default></key>
+    <key name="like-soundcloud" type="as"><default>['&lt;Control&gt;l']</default></key>
+  </schema>
+</schemalist>

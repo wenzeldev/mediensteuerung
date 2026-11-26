@@ -1,0 +1,8 @@
+{
+  "uuid": "mediensteuerung@local",
+  "name": "Mediensteuerung",
+  "version": 18,
+  "description": "Medien in der oberen Leiste und mit globalen Tastenkürzeln steuern.",
+  "shell-version": ["51"],
+  "settings-schema": "org.gnome.shell.extensions.mediensteuerung"
+}
